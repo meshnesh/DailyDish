@@ -1,0 +1,21 @@
+Architecture
+Domain Layer -> Database
+             -> Repository
+             -> DI
+Presentation Layer
+
+Data-binding (Koin)
+Database (Room)
+Recycler View
+
+MVP
+1. Display daily meals to be prepared
+2. User can click on day to view the list of meals that day
+    * Morning, Lunch, Dinner
+    ** User can click on the time of the day to see the ingredients for making the meal.
+    ** Later on a user can track the ingredients if they are still available or finished
+        Ingredients Data base to keep track of the ingredients to make food.
+    *** creating the menu of the day, select the day of the week then type in the nae of the food and the category.
+    **** User can edit on already saved food.
+    ***** user can delete on food already created.
+3.
